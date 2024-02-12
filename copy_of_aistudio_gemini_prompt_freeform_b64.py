@@ -1,5 +1,5 @@
 
-!pip install -U -q google-generativeai
+pip install -U -q google-generativeai
 
 # Install the client library and import necessary modules.
 import google.generativeai as genai
