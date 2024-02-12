@@ -45,18 +45,13 @@ from IPython.display import Markdown
 
 """
 
-### Mount Google Drive"""
-
-from google.colab import drive
-drive.mount('/gdrive')
-
 """## Set the API key
 
 Add your API_KEY to the secrets manager in the left pannel "🔑".
 """
 
 from google.colab import userdata
-
+secretName='AIzaSyBdinIc1IpTeI_QF8A3LIyhZOTGsQQ1HIM'
 API_KEY=userdata.get('secretName')
 
 # Configure the client library by providing your API key.
