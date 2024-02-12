@@ -1,6 +1,7 @@
 
-pip install -U -q google-generativeai
+from dotenv import load_dotenv
 
+load_dotenv()  
 # Install the client library and import necessary modules.
 import google.generativeai as genai
 
