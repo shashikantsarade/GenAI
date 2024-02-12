@@ -4,20 +4,6 @@
 # Install the client library and import necessary modules.
 import google.generativeai as genai
 
-import base64
-import io
-import json
-import mimetypes
-import pathlib
-import pprint
-import requests
-
-import PIL.Image
-import IPython.display
-from IPython.display import Markdown
-
-"""
-
 """## Set the API key
 
 Add your API_KEY to the secrets manager in the left pannel "🔑".
