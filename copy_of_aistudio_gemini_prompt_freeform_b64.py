@@ -5,12 +5,6 @@ load_dotenv()
 # Install the client library and import necessary modules.
 import google.generativeai as genai
 
-"""## Set the API key
-
-Add your API_KEY to the secrets manager in the left pannel "🔑".
-"""
-
-from google.colab import userdata
 secretName='AIzaSyBdinIc1IpTeI_QF8A3LIyhZOTGsQQ1HIM'
 API_KEY=userdata.get('secretName')
 
